@@ -1,0 +1,96 @@
+dl.decision-tree dd.collapsed {
+	display:none;
+}
+.button1{
+	background-color: #1D3C33;
+	padding:0.35em 1.2em;
+	border:0.1em solid #512128;
+	margin:0 0.3em 0.3em 0;
+	border-radius:0.12em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-family:'Roboto',sans-serif;
+	font-weight:300;
+	color:#FFFFFF;
+	text-align:center;
+	transition: all 0.2s;
+}
+.button1:hover{
+	color:#FFFFFF;
+	background-color:#512128;
+}
+dt {
+	background-color: #682A33;
+	padding:0.35em 1.2em;
+	border:0.1em solid #512128;
+	margin:0 0.3em 0.3em 0;
+	border-radius:0.12em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-family:'Roboto',sans-serif;
+	font-weight:300;
+	color:#FFFFFF;
+	text-align:center;
+	transition: all 0.2s;
+}
+dt:hover{
+	color:#FFFFFF;
+	background-color:#512128;
+}
+dd {
+	margin: 10px;
+}
+.yes {
+	font-size: 2em;
+
+}
+.permitDescription {
+	margin-top: 10px;
+	padding-left: 5px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	margin-top: 10px;
+	padding: 0;
+}
+
+li {
+	font: 200 20px/1.5 serif;
+	border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+	border: none;
+}
+
+li a {
+	text-decoration: none;
+	color: #000;
+
+	-webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+	-moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+	-o-transition: font-size 0.3s ease, background-color 0.3s ease;
+	-ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+	transition: font-size 0.3s ease, background-color 0.3s ease;
+	display: block;
+}
+
+li a:hover {
+	font-size: 30px;
+	background: #f6f6f6;
+}
+#NoStyle {
+	background-color: #FFF;
+	border: none;
+}
+#NoStyle:hover{
+	background-color: #FFF;
+	border: none;
+}
+@media all and (max-width:30em){
+	a.button1{
+		display:block;
+		margin:0.4em auto;
+	}
+}
